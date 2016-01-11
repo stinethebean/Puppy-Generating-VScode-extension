@@ -3,7 +3,7 @@
 	"displayName": "PuppyPopUp",
 	"description": "puppies appear when you ask",
 	"version": "0.0.1",
-	"publisher": "Christine",
+	"publisher": "StineTheBean",
 	"engines": {
 		"vscode": "^0.10.1"
 	},
