@@ -8,7 +8,7 @@
 		"vscode": "^0.10.1"
 	},
     "license": "MIT",
-    "homepage":"http://aka.ms/christine",
+    "homepage":"https://github.com/stinethebean/Puppy-Generating-VScode-extension",
 	"categories": [
 		"Other"
 	],
@@ -24,7 +24,7 @@
     "theme": "light"
      },
      "bugs": {
-         "url":"http://aka.ms/christine",
+         "url":"https://github.com/stinethebean/Puppy-Generating-VScode-extension",
          "email":"christineatms@gmail.com"
      },
 	"activationEvents": [
