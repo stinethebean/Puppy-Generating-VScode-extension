@@ -1,0 +1,61 @@
+{
+	"name": "puppypopup",
+	"displayName": "PuppyPopUp",
+	"description": "puppies appear when you ask",
+	"version": "0.0.1",
+	"publisher": "Christine",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+    "license": "MIT",
+    "homepage":"http://aka.ms/christine",
+	"categories": [
+		"Other"
+	],
+    "keywords": [
+        "Puppy",
+        "Puppies",
+        "Fun",
+        "Silly"
+    ],
+    "icon": "PuppyLogo.png",
+    "galleryBanner": {
+    "color": "#A1A0A0",
+    "theme": "light"
+     },
+     "bugs": {
+         "url":"http://aka.ms/christine",
+         "email":"christineatms@gmail.com"
+     },
+	"activationEvents": [
+		"onCommand:extension.sayHello",
+        "onCommand:extension.randomPuppy",
+        "onCommand:extension.hourlyPuppy"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"commands": [
+         {
+			"command": "extension.sayHello",
+			"title": "Puppy: Instant puppy"
+		},
+        {
+            "command": "extension.randomPuppy",
+            "title": "Puppy: Get puppies randomly for the next 4 hours"    
+        },
+        {
+            "command": "extension.hourlyPuppy",
+            "title": "Puppy: Get puppies hourly"
+        }
+        
+        ]
+	},
+	"scripts": {
+		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
+	},
+	"devDependencies": {
+		"typescript": "^1.6.2",
+		"vscode": "0.10.x"
+	}
+}
