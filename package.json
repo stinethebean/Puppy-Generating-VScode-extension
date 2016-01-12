@@ -1,8 +1,8 @@
 {
 	"name": "puppypopup",
-	"displayName": "PuppyPopUp",
-	"description": "puppies appear when you ask",
-	"version": "0.0.1",
+	"displayName": "Puppy Generator",
+	"description": "Take a break from coding with puppies",
+	"version": "0.0.2",
 	"publisher": "StineTheBean",
 	"engines": {
 		"vscode": "^0.10.1"
