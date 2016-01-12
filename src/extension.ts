@@ -17,6 +17,7 @@ export function activate(context: vscode.ExtensionContext) {
 	var disposable = vscode.commands.registerCommand('extension.sayHello', () => openPuppy());
     var disposable = vscode.commands.registerCommand('extension.randomPuppy', () => randomPuppy());
     var disposable = vscode.commands.registerCommand('extension.hourlyPuppy', () => hourlyPuppy());
+    var disposable = vscode.commands.registerCommand('extension.randomCute', () => randomCuteThing());
     
 	
 	context.subscriptions.push(disposable);
@@ -41,4 +42,10 @@ function hourlyPuppy(){
 function openPuppy(){
     var open = require('open');
     open("http://www.thepuppyapi.com/puppy?format=src");
+}
+
+function randomCuteThing(){
+    var open = require('open');
+    var cute = require('hubot-cute-me');
+    open(cute());
 }

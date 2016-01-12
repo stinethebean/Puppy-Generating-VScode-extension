@@ -30,7 +30,8 @@
 	"activationEvents": [
 		"onCommand:extension.sayHello",
         "onCommand:extension.randomPuppy",
-        "onCommand:extension.hourlyPuppy"
+        "onCommand:extension.hourlyPuppy",
+        "onCommand:extension.randomCute"
 	],
 	"main": "./out/src/extension",
 	"contributes": {
@@ -46,6 +47,10 @@
         {
             "command": "extension.hourlyPuppy",
             "title": "Puppy: Get puppies hourly"
+        },
+        {
+            "command": "extension.randomCute",
+            "title": "Random cute image of the day"
         }
         
         ]
